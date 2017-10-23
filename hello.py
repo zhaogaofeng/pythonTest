@@ -1,3 +1,4 @@
+
 # -*- coding: utf-8 -*-
 import re
 import requests
@@ -35,3 +36,4 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf8')
 if __name__ == '__main__':
     for i in range(1, 2):
         crawl_joke_list(i)
+

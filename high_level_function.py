@@ -6,3 +6,4 @@ L1=map(str,L)
 print(list(L1))
 for i in L1:
 	print(i)
+
